@@ -5,13 +5,14 @@
 
 *{
     box-sizing: border-box;
+   
 }
 
 /* ----body base --- */
 body {
     font-family: 'Poppins', sans-serif;
     /* background-color: #AAAAAA; */
-    /* background-color: #E6E6E6; */
+     background-color: #E6E6E6; 
 }
 /* ---------------
 navigation style 
@@ -21,7 +22,7 @@ navigation style
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
-    margin: 50px 80px 10px 80px;
+    padding: 50px 80px 0 80px;
 }
 
 .nav-titel {
@@ -52,21 +53,27 @@ navigation style
     color: white;
     
 }
-.icons a{
+.icons .fa-arrow-right.arrow{
     color: white;
 }
 
+/* ---main base--- */
+main{
+    background: #FFFFFF;
+}
 /* ------------
 header-section style
 ----- --------- */
 .container{
+    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    margin-left: 80px;
+    margin:0 80px;
     align-items: center;
     height: 500px;
     margin-bottom: 30px;
+    gap: 10px;
 }
 .influnce-titel{
     font-size: 52px;
@@ -92,7 +99,7 @@ header-section style
 logos style  
 ------------*/
 .logos{
-    width: 83%;
+    width: 78%;
     margin: 0 150px;
 }
 .border{
@@ -179,4 +186,71 @@ popular-collection styles
 
 .fa-arrow-right{
     color: rgba(224, 44, 109, 0.87);
+}
+
+/* ----------feature section  ------------*/
+.featured-products{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin:0 165px ;
+}
+
+
+.feature-titel{
+    color: #0A0826;
+    font-weight: 700;
+    font-size: 38px;
+    margin: 0;
+}
+.feature-diteals{
+    color: #6C6C6C;
+}
+.joined{
+    display: flex;
+    padding: 10px 24px;
+    gap: 8px;
+    background: #E02C6D;
+    width: 196px;
+    height: 44px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.join a{
+    text-decoration: none;
+    color: white;
+    
+}
+.icons .fa-arrow-right.arrow{
+    color: white;
+}
+
+/* ----------
+footer style
+--------------  */
+footer{
+    background: #0A0826;
+}
+article{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-titel{
+    color: #FFFFFF;
+    font-size: 24px;
+    margin: 0;
+}
+
+.copy{
+    color: #D9DBE1;
+    font-size: 14px;
+}
+
+.social-icon{
+   font-size: 20px;
+}
+
+.styles{
+    padding: 24px;
+    color: #FFFFFF;
 }
