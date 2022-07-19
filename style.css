@@ -86,3 +86,21 @@ header-section style
     
     background-size: contain;
 }
+
+/* ---------
+logos style  
+------------*/
+.logos{
+    width: 83%;
+    margin: 0 150px;
+}
+.border{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid rgba(216, 214, 214, 0.726);
+    border-bottom: 1px solid rgba(216, 214, 214, 0.726);
+    align-items: center;
+}
+.logo-item{
+    padding: 34px 0;
+}
