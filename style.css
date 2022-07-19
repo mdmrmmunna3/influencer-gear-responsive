@@ -21,7 +21,7 @@ navigation style
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
-    margin: 50px 80px;
+    margin: 50px 80px 10px 80px;
 }
 
 .nav-titel {
@@ -66,6 +66,7 @@ header-section style
     margin-left: 80px;
     align-items: center;
     height: 500px;
+    margin-bottom: 30px;
 }
 .influnce-titel{
     font-size: 52px;
@@ -103,4 +104,79 @@ logos style
 }
 .logo-item{
     padding: 34px 0;
+}
+
+/* **-------------------
+popular-collection styles 
+------------------** */
+.collection-container{
+    margin:100px 196px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:30px ;
+    grid-row-gap: 30px;
+    
+    border-radius: 5px;
+}
+
+.collection-titel{
+    font-size: 28px;
+    color: #3A3A3A;
+    text-align: center;
+}
+.collection-details{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 14px;
+    margin-bottom: 50px;
+}
+
+.collection-imges img{
+    width: 100%;
+}
+
+.product-name{
+    font-size: 28px;
+    color: #18191F;
+}
+
+.money{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+}
+
+.fa-star.filled{
+    color: #FB8200;
+    font-size: 14px;
+}
+
+.fa-star-half-stroke.filled{
+    color: #FB8200;
+    font-size: 14px;
+}
+
+#rating{
+    margin-left: 10px;
+}
+.titel{
+    color: #787885;
+}
+
+.see-more{
+   
+    float: right;
+}
+
+.see-more a{
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+    padding-left: 8px;
+    font-weight: 600;
+}
+
+.fa-arrow-right{
+    color: rgba(224, 44, 109, 0.87);
 }
